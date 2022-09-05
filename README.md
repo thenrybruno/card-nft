@@ -18,8 +18,8 @@ Clone de um Card NFT retirado do site Frontend Mentor, feito com HTML e SASS.
 
 ## Links
 
-- URL da solução: ()
-- URL do site ativo: ()
+- URL da solução: (https://github.com/thenrybruno/card-nft)
+- URL do site ativo: (https://thenrybruno.github.io/card-nft/)
 
 ## Construído com
 
