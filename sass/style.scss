@@ -1,0 +1,127 @@
+@import './variaveis/reset.scss';
+@import './variaveis/cores.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: $background-color;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+
+    .container{
+        background-color: $background-card;
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        gap: 15px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+        .container-imagem{
+            width: 260px;
+            height: 260px;
+            background-color: $color-text-secundaria;
+            margin-top: 20px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .img-cubo{
+                width: 260px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: .3s;
+
+                &:hover{
+                    opacity: 60%;
+                }
+            }
+        }
+
+        .container-titulo{
+            color: $color-titulo;
+            font-weight: 600;
+            width: 260px;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover{
+                color: $color-text-secundaria;
+            }
+        }
+
+        .container-texto{
+            width: 260px;
+            p{
+                color: $color-text-principal;
+                font-weight: 300;
+                font-size: 15px;
+            }
+        }
+
+        .container-info{
+            display: flex;
+            width: 260px;
+            align-items: center;
+            justify-content: space-between;
+
+            .text-eth{
+                color: $color-text-secundaria;
+                font-size: 15px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .text-dias{
+                color: $color-text-principal;
+                font-size: 15px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+
+        .line{
+            width: 260px;
+            border-top: 2px solid $color-line;
+        }
+
+        .container-criacao{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            width: 260px;
+
+            .img-avatar{
+                width: 30px;
+                border: 1px solid #fff;
+                border-radius: 15px;
+            }
+
+            p{
+                color: $color-text-principal;
+                font-size: 15px;
+
+                span{
+                    color: $color-titulo;
+                    cursor: pointer;
+                    transition: .2s;
+
+                    &:hover{
+                        color: $color-text-secundaria;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+body .container {
+  background-color: #14253d;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  gap: 15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+body .container .container-imagem {
+  width: 260px;
+  height: 260px;
+  background-color: #00fff7;
+  margin-top: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .container-imagem .img-cubo {
+  width: 260px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .container .container-imagem .img-cubo:hover {
+  opacity: 60%;
+}
+body .container .container-titulo {
+  color: #ffffff;
+  font-weight: 600;
+  width: 260px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .container .container-titulo:hover {
+  color: #00fff7;
+}
+body .container .container-texto {
+  width: 260px;
+}
+body .container .container-texto p {
+  color: #8bacda;
+  font-weight: 300;
+  font-size: 15px;
+}
+body .container .container-info {
+  display: flex;
+  width: 260px;
+  align-items: center;
+  justify-content: space-between;
+}
+body .container .container-info .text-eth {
+  color: #00fff7;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body .container .container-info .text-dias {
+  color: #8bacda;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+body .container .line {
+  width: 260px;
+  border-top: 2px solid #2f415b;
+}
+body .container .container-criacao {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 260px;
+}
+body .container .container-criacao .img-avatar {
+  width: 30px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+}
+body .container .container-criacao p {
+  color: #8bacda;
+  font-size: 15px;
+}
+body .container .container-criacao p span {
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+body .container .container-criacao p span:hover {
+  color: #00fff7;
+}
+
+/*# sourceMappingURL=style.css.map */
